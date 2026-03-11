@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "agent-memory"
+authors:
+  - name: "577 Industries"
+url: "https://github.com/577-industries/agent-memory"
+license: Apache-2.0
+type: software
