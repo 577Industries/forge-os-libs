@@ -1,0 +1,50 @@
+{
+  "name": "@577-industries/model-router",
+  "version": "1.0.0",
+  "description": "Multi-provider AI model router with 6 strategies, sovereign profile, and composite scoring across 9+ providers",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "model-router",
+    "ai",
+    "llm",
+    "routing",
+    "multi-provider",
+    "cost-optimization",
+    "sovereign",
+    "open-source"
+  ],
+  "author": "577 Industries",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/577-industries/model-router"
+  },
+  "homepage": "https://www.577industries.com/forge",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
