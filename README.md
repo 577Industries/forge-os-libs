@@ -1,9 +1,17 @@
-# @577-industries/model-router
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-dark.svg">
+  <img alt="577 Industries" height="44" src="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-light.svg">
+</picture>
 
-[![npm version](https://img.shields.io/npm/v/@577-industries/model-router)](https://www.npmjs.com/package/@577-industries/model-router)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+# forge-model-router
 
-Multi-provider AI model router with 6 strategies, sovereign profile filtering, and composite scoring across 9+ providers. Zero runtime dependencies.
+`FORGE OS` · [program overview](https://github.com/577Industries#forge-os--agent-infrastructure)
+
+**Multi-provider AI model router with 6 routing strategies, sovereign profile support, and cost ceiling enforcement.**
+
+[![release](https://img.shields.io/github/v/release/577Industries/forge-model-router?style=flat-square)](https://github.com/577Industries/forge-model-router/releases)
+[![license](https://img.shields.io/badge/license-Apache_2.0-blue?style=flat-square)](LICENSE)
+[![npm](https://img.shields.io/npm/v/%40577-industries%2Fmodel-router?style=flat-square)](https://www.npmjs.com/package/@577-industries/model-router)
 
 **Patent** "Adaptive Model Routing" (Feb 2026)
 
