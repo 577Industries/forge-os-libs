@@ -1,11 +1,17 @@
-# @577-industries/hashchain-audit
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-dark.svg">
+  <img alt="577 Industries" height="44" src="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-light.svg">
+</picture>
 
-[![npm version](https://img.shields.io/npm/v/@577-industries/hashchain-audit)](https://www.npmjs.com/package/@577-industries/hashchain-audit)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
+# forge-hashchain-audit
 
-A tamper-evident audit trail using three cryptographic layers: SHA-256 hash chaining, Ed25519 digital signatures, and Merkle tree anchoring. Zero runtime dependencies — uses Node.js built-in `crypto`.
+`FORGE OS` · [program overview](https://github.com/577Industries#forge-os--agent-infrastructure)
 
-Implements the core algorithm described in the **"Hash-Chained Audit Ledger"** patent (March 2026) by 577 Industries.
+**Tamper-evident audit trail with SHA-256 hash chaining, Ed25519 signatures, and Merkle tree anchoring.**
+
+[![release](https://img.shields.io/github/v/release/577Industries/forge-hashchain-audit?style=flat-square)](https://github.com/577Industries/forge-hashchain-audit/releases) [![license](https://img.shields.io/badge/license-Apache_2.0-blue?style=flat-square)](./LICENSE) [![npm](https://img.shields.io/npm/v/%40577-industries%2Fhashchain-audit?style=flat-square)](https://www.npmjs.com/package/@577-industries/hashchain-audit)
+
+Zero runtime dependencies — uses Node.js built-in `crypto`. Implements the core algorithm described in the **"Hash-Chained Audit Ledger"** patent (March 2026) by 577 Industries.
 
 ## How It Works
 
