@@ -1,11 +1,17 @@
-# @577-industries/tool-guardrails
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-dark.svg">
+  <img alt="577 Industries" height="44" src="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-light.svg">
+</picture>
 
-[![npm version](https://img.shields.io/npm/v/@577-industries/tool-guardrails)](https://www.npmjs.com/package/@577-industries/tool-guardrails)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
+# forge-tool-guardrails
 
-A 4-level guardrail middleware for AI agent tools with human-in-the-loop approval workflow. Wrap any tool with governance controls — from silent passthrough to full blocking. Zero runtime dependencies.
+`FORGE OS` · [program overview](https://github.com/577Industries#forge-os--agent-infrastructure)
 
-Implements the core algorithm described in the **"Governed Autonomy Framework"** patent (January 2026) by 577 Industries.
+**4-level guardrail middleware (none/log/pause/block) for AI agent tools with human-in-the-loop approval workflow.**
+
+[![release](https://img.shields.io/github/v/release/577Industries/forge-tool-guardrails?style=flat-square)](https://github.com/577Industries/forge-tool-guardrails/releases) [![license](https://img.shields.io/badge/license-Apache_2.0-blue?style=flat-square)](./LICENSE) [![npm](https://img.shields.io/npm/v/%40577-industries%2Ftool-guardrails?style=flat-square)](https://www.npmjs.com/package/@577-industries/tool-guardrails)
+
+Wrap any tool with governance controls — from silent passthrough to full blocking. Zero runtime dependencies. Implements the core algorithm described in the **"Governed Autonomy Framework"** patent (January 2026) by 577 Industries.
 
 ## How It Works
 
