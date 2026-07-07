@@ -1,9 +1,15 @@
-# @577-industries/agent-memory
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-dark.svg">
+  <img alt="577 Industries" height="44" src="https://raw.githubusercontent.com/577Industries/.github/main/brand/out/wordmark-light.svg">
+</picture>
 
-[![npm version](https://img.shields.io/npm/v/@577-industries/agent-memory)](https://www.npmjs.com/package/@577-industries/agent-memory)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
+# forge-agent-memory
 
-Bio-inspired memory for AI agents with 5 memory types, logarithmic reinforcement, exponential decay, and composite recall scoring. Mimics biological memory consolidation. Zero runtime dependencies.
+`FORGE OS` · [program overview](https://github.com/577Industries#forge-os--agent-infrastructure)
+
+**Bio-inspired memory for AI agents with logarithmic reinforcement, exponential decay, and composite recall scoring.**
+
+[![release](https://img.shields.io/github/v/release/577Industries/forge-agent-memory?style=flat-square)](https://github.com/577Industries/forge-agent-memory/releases) [![license](https://img.shields.io/badge/license-Apache_2.0-blue?style=flat-square)](./LICENSE) [![npm](https://img.shields.io/npm/v/%40577-industries%2Fagent-memory?style=flat-square)](https://www.npmjs.com/package/@577-industries/agent-memory)
 
 Implements the core algorithm described in the **"Autonomous Memory Evolution"** patent (December 2025) by 577 Industries.
 
