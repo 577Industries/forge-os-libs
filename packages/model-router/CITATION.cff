@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "577 Industries"
+title: "@577-industries/model-router"
+version: 1.0.0
+date-released: "2026-03-11"
+license: Apache-2.0
+url-repository: "https://github.com/577Industries/forge-model-router"
+keywords:
+  - model-router
+  - ai
+  - llm
+  - routing
+  - multi-provider
+  - cost-optimization
+  - sovereign
+abstract: "Multi-provider AI model router with 6 strategies, sovereign profile, and composite scoring across 9+ providers. Extracted from FORGE OS by 577 Industries. Patent: Adaptive Model Routing (Feb 2026)."
