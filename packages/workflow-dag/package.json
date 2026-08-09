@@ -13,25 +13,37 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
-  "engines": { "node": ">=18" },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc --noEmit"
   },
-  "keywords": ["workflow", "dag", "topological-sort", "kahn", "yaml", "compiler", "orchestration", "parallel"],
+  "keywords": [
+    "workflow",
+    "dag",
+    "topological-sort",
+    "kahn",
+    "yaml",
+    "compiler",
+    "orchestration",
+    "parallel"
+  ],
   "author": "577 Industries",
   "license": "Apache-2.0",
-  "repository": { "type": "git", "url": "https://github.com/577Industries/forge-workflow-dag" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/577Industries/forge-os-libs",
+    "directory": "packages/workflow-dag"
+  },
   "homepage": "https://www.577industries.com/forge",
   "dependencies": {
     "yaml": "^2.7.0"
-  },
-  "devDependencies": {
-    "tsup": "^8.4.0",
-    "typescript": "^5.7.0",
-    "vitest": "^3.0.0"
   }
 }

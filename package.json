@@ -1,0 +1,32 @@
+{
+  "name": "@577-industries/forge-os-libs",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Monorepo for the FORGE OS agent-infrastructure libraries",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "577 Industries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/577Industries/forge-os-libs"
+  },
+  "homepage": "https://www.577industries.com/open-source#forge-os",
+  "engines": {
+    "node": ">=18"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "check": "npm run lint && npm run test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
