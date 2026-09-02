@@ -20,9 +20,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # Matches the `engines.node: ">=18"` every package declares — a
-        # support claim is only real if it is exercised.
-        node-version: ['18', '20', '22']
+        # Node 18 is EOL (2025-04); vitest 4 needs util.styleText. Published
+        # engines stay >=18 — the matrix is a CI decision, not a
+        # support-contract change.
+        node-version: ['20', '22']
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7

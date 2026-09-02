@@ -9,6 +9,12 @@ updates:
       npm-minor-patch:
         patterns: ["*"]
         update-types: ["minor", "patch"]
+    ignore:
+      # 2026-09-02: typescript 7 fails tsc (TS2591 in tool-guardrails/workflow-dag)
+      # and the tsup/dts toolchain is not TS-7-ready; same posture as 577i-unified.
+      # Remove when the toolchain supports TS 7.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
