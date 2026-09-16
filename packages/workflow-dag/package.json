@@ -44,6 +44,6 @@
   },
   "homepage": "https://www.577industries.com/forge",
   "dependencies": {
-    "yaml": "^2.7.0"
+    "yaml": "^2.9.1"
   }
 }
